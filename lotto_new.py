@@ -7,10 +7,10 @@
 import random
 white_num = [] 
 powerball = []
-while len(powerball) < 2:
+while len(powerball) < 1:
     red_num = random.randint(1,26)
     if red_num not in powerball:
-        powerball.append(num)
+        powerball.append(red_num)
 while len(white_num) < 5:
     white_ball= random.randint(1,69)
     if white_ball not in white_num:
