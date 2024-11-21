@@ -3,5 +3,5 @@ def float_range(start, stop, step=.25):
     while current < stop:
         yield current
         current += step
-for num in float_range(3.142, 12):
+for num in float_range(1,3,1):
     print(f"{num:05.2f}")
